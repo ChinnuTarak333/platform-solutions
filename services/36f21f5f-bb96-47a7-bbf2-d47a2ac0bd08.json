@@ -1,0 +1,38 @@
+{
+    "name": "run_confidence_model",
+    "description": "",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-30T08:47:34.242145",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "36f21f5f-bb96-47a7-bbf2-d47a2ac0bd08",
+    "service_key": "run_confidence_model",
+    "display_name": "Run Confidence Model with Dataset",
+    "feedback_supported": true,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "domain"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "run_confidence_model",
+    "response_trigger": "run_confidence_model_response",
+    "headers": {},
+    "service_configuration": "{}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "10"
+    },
+    "category_id": "category_6",
+    "category": "Assisted Training",
+    "service_name": "run_confidence_model",
+    "service_type": "INTERNAL"
+}

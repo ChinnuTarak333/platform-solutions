@@ -1,0 +1,38 @@
+{
+    "name": "extract_line_tables",
+    "description": "Extract Line Tables for each page of document.",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.095973",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "5d3b51d2-b133-47a3-b394-778ae65eb00d",
+    "service_key": "extract_line_tables_key",
+    "display_name": "Extract Line Tables",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "extract_line_tables",
+    "response_trigger": "extract_line_tables_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"known Table Headers\": {\"name\": \"known Table Headers\", \"description\": \"known Table Headers\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": null, \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.known_table_headings\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Min No Row In Bordered Table\": {\"min_value\": 1, \"max_value\": 100, \"closure\": \"closed_closed\", \"name\": \"Min No Row In Bordered Table\", \"description\": \"min no. of column defined in table\", \"data_type\": \"integer\", \"op_type\": \"continuous\", \"value\": 2, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.min_no_of_column_bordered_table\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"NumericConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Min No Column In Table\": {\"min_value\": 1, \"max_value\": 100, \"closure\": \"closed_closed\", \"name\": \"Min No Column In Table\", \"description\": \"min no. of row defined in table\", \"data_type\": \"integer\", \"op_type\": \"continuous\", \"value\": 2, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.min_no_of_row_in_bordered_table\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"NumericConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_3",
+    "category": "Element Extraction",
+    "service_name": "extract_line_tables",
+    "service_type": "INTERNAL"
+}

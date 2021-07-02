@@ -1,0 +1,39 @@
+{
+    "name": "append_entities",
+    "description": "",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-30T08:47:34.138209",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "d5dab62c-f486-42b8-9adb-28297266a3ff",
+    "service_key": "append_entities",
+    "display_name": "Append Entities",
+    "feedback_supported": true,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document",
+        "domain"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "append_entities_request",
+    "response_trigger": "append_entities_response",
+    "headers": {},
+    "service_configuration": "{\"merge_entity_groups\": {\"options\": [\"yes\", \"no\"], \"is_option_object\": true, \"display_key\": null, \"value_key\": null, \"name\": \"Merge Entity Groups\", \"description\": \"Merge entity groups in linking\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": \"no\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.merge_entity_groups\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"9.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "10"
+    },
+    "category_id": "category_4",
+    "category": "Entity Linking",
+    "service_name": "append_entities",
+    "service_type": "INTERNAL"
+}

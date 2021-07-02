@@ -1,0 +1,38 @@
+{
+    "name": "horizontal_line_detection",
+    "description": "Detecting horizontal lines for tables",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.500885",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "d735b85f-ca0c-4fba-aee1-b967473c0916",
+    "service_key": "horizontal_line_detection_key",
+    "display_name": "Horizontal Line Detection",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "horizontal_line_detection",
+    "response_trigger": "horizontal_line_detection_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"known Table Headers\": {\"name\": \"known Table Headers\", \"description\": \"known Table Headers\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": null, \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.known_table_headings\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Horizontal Lines Threshold\": {\"min_value\": 1, \"max_value\": 100, \"closure\": \"closed_closed\", \"name\": \"Horizontal Lines Threshold\", \"description\": \"min no. of rows defined in table\", \"data_type\": \"integer\", \"op_type\": \"continuous\", \"value\": 5, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.horizontal_lines_threshold\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"NumericConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Row Bin Size\": {\"min_value\": 0.5, \"max_value\": 4, \"closure\": \"closed_closed\", \"name\": \"Row Bin Size\", \"description\": \"min no. of rows defined in table\", \"data_type\": \"float\", \"op_type\": \"continuous\", \"value\": 2, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.row_bin_size\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"NumericConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_3",
+    "category": "Element Extraction",
+    "service_name": "horizontal_line_detection",
+    "service_type": "INTERNAL"
+}

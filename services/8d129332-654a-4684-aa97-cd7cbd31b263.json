@@ -1,0 +1,38 @@
+{
+    "name": "detect_hand_writing_region_post_processing",
+    "description": "Applying post processing rules for hand writing region detection",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.745301",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "8d129332-654a-4684-aa97-cd7cbd31b263",
+    "service_key": "detect_hand_writing_region_post_processing_key",
+    "display_name": "Post Processing for Hand Writing Region Detection",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "detect_hand_writing_region_post_processing",
+    "response_trigger": "detect_hand_writing_region_post_processing_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Get Image Slices\": {\"options\": [true, false], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"Get Image Slices\", \"description\": \"Get Image Slices\", \"data_type\": \"boolean\", \"op_type\": \"categorical\", \"value\": false, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.get_image_slices\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_4",
+    "category": "Unknown",
+    "service_name": "detect_hand_writing_region_post_processing",
+    "service_type": "INTERNAL"
+}

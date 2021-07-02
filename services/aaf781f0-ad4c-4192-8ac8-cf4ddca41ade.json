@@ -1,0 +1,38 @@
+{
+    "name": "aggregate_elements",
+    "description": "Aggregate Elements across pages of document.",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.230153",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "aaf781f0-ad4c-4192-8ac8-cf4ddca41ade",
+    "service_key": "aggregate_elements_key",
+    "display_name": "Aggregate Elements",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "aggregate_elements",
+    "response_trigger": "aggregate_elements_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_3",
+    "category": "Element Extraction",
+    "service_name": "aggregate_elements",
+    "service_type": "INTERNAL"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "discover_svpo",
+    "description": "Discover SVPO relationships for a document using ground truth ",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-17T06:45:24.453335",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "5639a27e-0bb1-4b4e-9575-78a69c4738ad",
+    "service_key": "discover_svpo",
+    "display_name": "Discover SVPO",
+    "feedback_supported": true,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "discover_svpo",
+    "response_trigger": "discover_svpo_response",
+    "headers": {},
+    "service_configuration": "{}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "300"
+    },
+    "category_id": "category_11",
+    "category": "Entity Linking",
+    "service_name": "discover_svpo",
+    "service_type": "INTERNAL"
+}

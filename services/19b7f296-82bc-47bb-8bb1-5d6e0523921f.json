@@ -1,0 +1,38 @@
+{
+    "name": "extract_model_paragraph",
+    "description": "Extract Paragraph Service",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.358220",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "19b7f296-82bc-47bb-8bb1-5d6e0523921f",
+    "service_key": "extract_model_paragraph_key",
+    "display_name": "Extract Model Paragraph",
+    "feedback_supported": true,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "extract_model_paragraph",
+    "response_trigger": "extract_model_paragraph_response",
+    "headers": {},
+    "service_configuration": "{\"paragraph_processing_pipeline\": {\"api\": \"dag/task/list\", \"trigger\": \"list_tasks\", \"options\": \"result.metadata.tasks\", \"request_data\": {\"category\": \"pipeline\", \"is_enabled\": true}, \"display_key\": \"name\", \"value_key\": \"task_id\", \"custom_request_data\": [], \"name\": \"paragraph_processing_pipeline\", \"description\": \"select the pipeline to process paragraph extraction\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": null, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.paragraph_processing_pipeline\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"PlatformApiListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"paragraph_feedback_pipeline\": {\"api\": \"dag/task/list\", \"trigger\": \"list_tasks\", \"options\": \"result.metadata.tasks\", \"request_data\": {\"category\": \"pipeline\", \"is_enabled\": true}, \"display_key\": \"name\", \"value_key\": \"task_id\", \"custom_request_data\": [], \"name\": \"paragraph_feedback_pipeline\", \"description\": \"select the pipeline to process feedback for paragraph\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": null, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.paragraph_feedback_pipeline\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"PlatformApiListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_4",
+    "category": "Element Extraction",
+    "service_name": "extract_model_paragraph",
+    "service_type": "INTERNAL"
+}

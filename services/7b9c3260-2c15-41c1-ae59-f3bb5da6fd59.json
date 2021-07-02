@@ -1,0 +1,38 @@
+{
+    "name": "extract_phrases_bold",
+    "description": "Extract Phrases & Bold for each page of document.",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:31.922505",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "7b9c3260-2c15-41c1-ae59-f3bb5da6fd59",
+    "service_key": "extract_phrases_bold_key",
+    "display_name": "Extract Phrases & Bold",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "extract_phrases_bold",
+    "response_trigger": "extract_phrases_bold_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Fields Separator\": {\"name\": \"Fields Separator\", \"description\": \"separator to split phrases for fields\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": [\":\", \"?\", \"#\", \"$\", \"-\"], \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.fields_separators\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Strict Phrases separator\": {\"options\": [true, false], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"Strict Phrases separator\", \"description\": \"Strict Phrases separator\", \"data_type\": \"boolean\", \"op_type\": \"categorical\", \"value\": false, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.phrase_separation\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Known Phrases\": {\"name\": \"Known Phrases\", \"description\": \"Known Phrases\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": [\"Ship To\", \"Bill To\"], \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.known_phrases\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_3",
+    "category": "Element Extraction",
+    "service_name": "extract_phrases_bold",
+    "service_type": "INTERNAL"
+}

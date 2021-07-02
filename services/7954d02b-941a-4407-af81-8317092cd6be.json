@@ -1,0 +1,39 @@
+{
+    "name": "update_attr_conf_score",
+    "description": "",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-30T08:47:34.257044",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "7954d02b-941a-4407-af81-8317092cd6be",
+    "service_key": "update_attr_conf_score",
+    "display_name": "Update Attribute Confidence Score",
+    "feedback_supported": true,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document",
+        "domain"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "update_attr_conf_score_request",
+    "response_trigger": "update_attr_conf_score_response",
+    "headers": {},
+    "service_configuration": "{}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "10"
+    },
+    "category_id": "category_4",
+    "category": "Assisted Training",
+    "service_name": "update_attr_conf_score",
+    "service_type": "INTERNAL"
+}

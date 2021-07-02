@@ -1,0 +1,39 @@
+{
+    "name": "extract_intent",
+    "description": "",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-30T08:47:34.272462",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "25f37ccc-1460-4dae-af84-b94d4ce078bf",
+    "service_key": "intent",
+    "display_name": "Extract Intent",
+    "feedback_supported": true,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document",
+        "domain"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "extract_intent_request",
+    "response_trigger": "extract_intent_response",
+    "headers": {},
+    "service_configuration": "{}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "10"
+    },
+    "category_id": "category_4",
+    "category": "Entity Linking",
+    "service_name": "extract_intent",
+    "service_type": "INTERNAL"
+}

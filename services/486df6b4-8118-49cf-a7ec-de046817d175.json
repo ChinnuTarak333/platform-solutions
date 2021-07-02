@@ -1,0 +1,38 @@
+{
+    "name": "process_img_model",
+    "description": "service to process img model with features extracted",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.321965",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "486df6b4-8118-49cf-a7ec-de046817d175",
+    "service_key": "process_img_model_key",
+    "display_name": "Process Img Model",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "process_img_model",
+    "response_trigger": "process_img_model_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"retrain\": {\"name\": \"retrain\", \"description\": \"select if the call is for retraining the model or for extraction\", \"data_type\": \"boolean\", \"op_type\": \"categorical\", \"value\": false, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.retrain\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"BooleanConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\", \"options\": [true, false]}, \"model\": {\"api\": \"ml/model/get\", \"trigger\": \"get_model_details\", \"options\": \"result.metadata.models\", \"request_data\": {\"model\": {\"is_enabled\": true}}, \"display_key\": \"name\", \"value_key\": \"name\", \"custom_request_data\": [], \"name\": \"model\", \"description\": \"select the model from list to  run key value\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": null, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.model_name\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"PlatformApiListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"service\": {\"options\": [\"ExtractFields\", \"ExtractParagraphs\", \"ExtractHeadings\", \"ExtractTables\", \"ExtractOmr\", \"ExtractHandWriting\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"service\", \"description\": \"respective service name to call image model\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": null, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.service\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_4",
+    "category": "Element Extraction",
+    "service_name": "process_img_model",
+    "service_type": "INTERNAL"
+}

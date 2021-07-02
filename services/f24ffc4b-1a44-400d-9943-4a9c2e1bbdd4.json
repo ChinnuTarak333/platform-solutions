@@ -1,0 +1,38 @@
+{
+    "name": "extract_omr",
+    "description": "Extract omr with feature extraction and post processing",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.709654",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "f24ffc4b-1a44-400d-9943-4a9c2e1bbdd4",
+    "service_key": "extract_omr_key",
+    "display_name": "Extract Omr",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "extract_omr",
+    "response_trigger": "extract_omr_response",
+    "headers": {},
+    "service_configuration": "{\"omr_processing_pipeline\": {\"api\": \"dag/task/list\", \"trigger\": \"list_tasks\", \"options\": \"result.metadata.tasks\", \"request_data\": {\"category\": \"pipeline\", \"is_enabled\": true}, \"display_key\": \"name\", \"value_key\": \"task_id\", \"custom_request_data\": [], \"name\": \"omr_processing_pipeline\", \"description\": \"select the pipeline to process table extraction\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": null, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.omr_processing_pipeline\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"PlatformApiListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_4",
+    "category": "Element Extraction",
+    "service_name": "extract_omr",
+    "service_type": "INTERNAL"
+}

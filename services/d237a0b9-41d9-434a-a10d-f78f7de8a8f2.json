@@ -1,0 +1,38 @@
+{
+    "name": "extract_fields_post_processing",
+    "description": "Applying post processing rules for extract fields",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.340137",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "d237a0b9-41d9-434a-a10d-f78f7de8a8f2",
+    "service_key": "extract_fields_post_processing_key",
+    "display_name": "Post Processing for Extract Fields",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "extract_fields_post_processing",
+    "response_trigger": "extract_fields_post_processing_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Block Keys\": {\"name\": \"Block Keys\", \"description\": \"Block keys\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": null, \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.block_keys\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Value Indentation\": {\"name\": \"Value Indentation\", \"description\": \"select if the value maintains indentation or not\", \"data_type\": \"boolean\", \"op_type\": \"categorical\", \"value\": true, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.value_indentation\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"BooleanConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\", \"options\": [true, false]}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_4",
+    "category": "Element Extraction",
+    "service_name": "extract_fields_post_processing",
+    "service_type": "INTERNAL"
+}
