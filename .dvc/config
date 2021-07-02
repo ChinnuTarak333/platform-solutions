@@ -1,0 +1,5 @@
+[core]
+    remote = dvc-storage
+['remote "dvc-storage"']
+    url = s3://dvc-storage/dev8/newgit3
+    endpointurl = http://minio:9000
