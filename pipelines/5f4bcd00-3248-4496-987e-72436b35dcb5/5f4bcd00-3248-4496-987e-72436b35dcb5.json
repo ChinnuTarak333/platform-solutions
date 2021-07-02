@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "5f4bcd00-3248-4496-987e-72436b35dcb5",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "entity_confidence_feature_genaration",
+    "description": "",
+    "cts": "2020-04-15T13:49:33.868752",
+    "is_deleted": false,
+    "uts": "2020-04-15T16:05:42.075381",
+    "default_version": "b487c10d-b8e8-46c1-82f1-2e4f8fc148ec",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

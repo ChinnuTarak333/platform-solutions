@@ -1,0 +1,21 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Assisted Extraction",
+    "description": "pipeline to generate annotated data for docs using its ground truth",
+    "cts": "2020-04-08T06:26:44.482633",
+    "is_deleted": false,
+    "uts": "2020-04-08T06:26:44.482642",
+    "default_version": "bea06120-0dc1-4c63-9677-0f572c6ce4c1",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "341e3bdf-4e7a-459d-b076-7c24a1c439d3",
+    "generate_api": false
+}

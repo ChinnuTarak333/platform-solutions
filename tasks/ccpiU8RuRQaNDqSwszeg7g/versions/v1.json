@@ -1,0 +1,115 @@
+{
+    "create_ts": "2021-07-02 04:07:48.487363",
+    "task_id": "ccpiU8RuRQaNDqSwszeg7g",
+    "version_id": "v1",
+    "task_name": "Process Document Text service",
+    "task_class": "xpms_lib_dag.tasks.service_task.ServiceTask",
+    "name": "Process Document Text service",
+    "description": "",
+    "start": null,
+    "end": null,
+    "tasks": {},
+    "config": {
+        "conditions": null,
+        "pipeline_id": "92a0dcb5-416a-42eb-9dcd-38aca8b178e1"
+    },
+    "exec_type": null,
+    "category": "pipeline",
+    "is_enabled": false,
+    "is_published": true,
+    "is_deleted": false,
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "extras": {
+        "x_config": [
+            {
+                "options": [
+                    "any",
+                    "all"
+                ],
+                "is_option_object": false,
+                "display_key": null,
+                "value_key": null,
+                "name": "dependencies",
+                "description": "dependency on previous tasks to run",
+                "data_type": "string",
+                "op_type": "categorical",
+                "value": "any",
+                "multi_select": false,
+                "hidden": false,
+                "config_path": "config.dependencies",
+                "ui_component": "",
+                "_XpmsObjectMixin__type": "CategoricalListConfiguration",
+                "_XpmsObjectMixin__api_version": "10.0",
+                "instance_id": "MYVsxqGsQMGphjHUEBC9iQ"
+            },
+            {
+                "min_value": 0,
+                "max_value": 100,
+                "closure": "closed_closed",
+                "name": "task_max_retries",
+                "description": "max no of retries",
+                "data_type": "integer",
+                "op_type": "continuous",
+                "value": 3,
+                "multi_select": false,
+                "hidden": false,
+                "config_path": "config.task_max_retries",
+                "ui_component": "",
+                "_XpmsObjectMixin__type": "NumericConfiguration",
+                "_XpmsObjectMixin__api_version": "10.0",
+                "instance_id": "__wqtsy2SUCymPe1INqm7A"
+            },
+            {
+                "min_value": 0,
+                "max_value": 20000,
+                "closure": "closed_closed",
+                "name": "time_out",
+                "description": "max time out in seconds",
+                "data_type": "integer",
+                "op_type": "continuous",
+                "value": 0,
+                "multi_select": false,
+                "hidden": false,
+                "config_path": "config.time_out",
+                "ui_component": "",
+                "_XpmsObjectMixin__type": "NumericConfiguration",
+                "_XpmsObjectMixin__api_version": "10.0",
+                "instance_id": "__wqtsy2SUCymPe1INqm7A"
+            },
+            {
+                "name": "Transactional Commit",
+                "description": "Enable or Disable transactional commit",
+                "data_type": "boolean",
+                "op_type": "categorical",
+                "value": false,
+                "multi_select": false,
+                "hidden": false,
+                "config_path": "config.data.configuration.transactional_commit",
+                "ui_component": "",
+                "_XpmsObjectMixin__type": "BooleanConfiguration",
+                "_XpmsObjectMixin__api_version": "10.0",
+                "options": [
+                    true,
+                    false
+                ],
+                "instance_id": "__wqtsy2SUCymPe1INqm7A"
+            }
+        ]
+    },
+    "next": [],
+    "previous": [],
+    "timeout": "300",
+    "retries": 0,
+    "state": {},
+    "instance_id": "XIc4QO7ITgiwjgqJhNA3Lg",
+    "solution_id": "newgit3",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "",
+    "_XpmsObjectMixin__type": "Task",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "feedback_enabled": false
+}

@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "8e20ded0-3586-44d4-9740-19fb2a729ee1",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "headings_extraction_pipeline",
+    "description": "This pipeline contains all services for extracting headings",
+    "cts": "2020-04-02T13:22:02.177057",
+    "is_deleted": false,
+    "uts": "2020-04-02T13:25:35.856359",
+    "default_version": "d4eed5e6-5823-44d6-b8a5-e92be45d4ec6",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

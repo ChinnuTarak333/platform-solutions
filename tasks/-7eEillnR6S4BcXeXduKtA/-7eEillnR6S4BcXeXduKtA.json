@@ -1,0 +1,28 @@
+{
+    "task_class": "xpms_lib_dag.tasks.service_task.ServiceTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "solution_id": "newgit3",
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Extract Document Entities service",
+    "description": "extract document entities from document object",
+    "cts": "",
+    "is_deleted": false,
+    "uts": "",
+    "default_version": "v1",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "pulse_enabled": false,
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "task_id": "-7eEillnR6S4BcXeXduKtA",
+    "task_type": "external"
+}

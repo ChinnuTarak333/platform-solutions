@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "8eb28ce1-26dc-4dd2-a2ef-66337092610e",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "fields_extraction_pipeline",
+    "description": "This pipeline contains all services for extracting key value pairs",
+    "cts": "2020-04-01T04:49:52.019243",
+    "is_deleted": false,
+    "uts": "2020-04-01T07:31:50.483247",
+    "default_version": "2333bef8-6c54-4c9a-b3fb-b880ba3bf091",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

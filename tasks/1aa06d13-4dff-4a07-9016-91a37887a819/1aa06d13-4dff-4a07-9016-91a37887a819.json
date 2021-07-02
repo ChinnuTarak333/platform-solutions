@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Assisted Linking",
+    "description": "",
+    "cts": "2020-05-04T10:05:50.073001",
+    "is_deleted": false,
+    "uts": "2020-05-04T10:05:50.073007",
+    "default_version": "7cb3358b-7b58-48cc-a70a-68aa32abb954",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "1aa06d13-4dff-4a07-9016-91a37887a819"
+}

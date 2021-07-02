@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "a36b47f9-7ae2-4af9-9bb8-a37ab10bc7b2",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Entity and Extraction Reviews",
+    "description": "Pipelines with entity and extraction reviews",
+    "cts": "2019-07-30T11:58:31.296554",
+    "is_deleted": false,
+    "uts": "2020-04-22T14:31:54.790367",
+    "default_version": "2cbf655c-1bd8-4629-a0c6-706abb2aa1fc",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

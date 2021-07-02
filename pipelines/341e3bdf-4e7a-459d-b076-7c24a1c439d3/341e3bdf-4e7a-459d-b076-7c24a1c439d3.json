@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "341e3bdf-4e7a-459d-b076-7c24a1c439d3",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Assisted Extraction",
+    "description": "pipeline to generate annotated data for docs using its ground truth",
+    "cts": "2020-04-08T06:17:59.727744",
+    "is_deleted": false,
+    "uts": "2020-10-12T10:48:54.967540",
+    "default_version": "bea06120-0dc1-4c63-9677-0f572c6ce4c1",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

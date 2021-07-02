@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "7cd038e5-0b68-43da-a817-f79b41e4e647",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "create_searchable_pdf",
+    "description": "This pipeline creates a searchable pdf",
+    "cts": "2020-02-17T12:05:22.319753",
+    "is_deleted": false,
+    "uts": "2020-02-17T12:06:39.338937",
+    "default_version": "7794ee8a-c093-483a-a3ee-b8c448a92fc6",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

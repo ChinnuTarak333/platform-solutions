@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "d9223f9c-09cc-4265-a05f-dba684fd5cd2",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "default_feature_generation",
+    "description": "",
+    "cts": "2020-04-15T14:07:17.205858",
+    "is_deleted": false,
+    "uts": "2020-06-30T09:52:03.262134",
+    "default_version": "61c61921-b1c4-4c5a-811c-3993c9738289",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

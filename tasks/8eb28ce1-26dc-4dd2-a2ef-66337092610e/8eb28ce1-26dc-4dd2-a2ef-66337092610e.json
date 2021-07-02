@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "fields_extraction_pipeline",
+    "description": "This pipeline contains all services for extracting key value pairs",
+    "cts": "2020-04-01T05:10:50.750840",
+    "is_deleted": false,
+    "uts": "2020-04-01T05:10:50.750849",
+    "default_version": "2333bef8-6c54-4c9a-b3fb-b880ba3bf091",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "8eb28ce1-26dc-4dd2-a2ef-66337092610e"
+}

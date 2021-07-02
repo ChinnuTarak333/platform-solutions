@@ -1,0 +1,26 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Classify Document",
+    "description": "",
+    "cts": "2021-05-16T03:18:32.487856",
+    "is_deleted": false,
+    "uts": "2021-05-16T03:18:32.487867",
+    "default_version": "e2516a63-bd38-4d90-b2aa-d0212b08d7f3",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "pulse_enabled": false,
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "task_id": "61cc0bfa-8fa1-4106-9771-d221d4213637"
+}

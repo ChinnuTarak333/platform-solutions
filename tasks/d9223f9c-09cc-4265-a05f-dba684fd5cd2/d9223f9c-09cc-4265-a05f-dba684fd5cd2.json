@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "default_feature_generation",
+    "description": "",
+    "cts": "2020-04-15T14:14:39.270636",
+    "is_deleted": false,
+    "uts": "2020-04-15T14:14:39.270642",
+    "default_version": "61c61921-b1c4-4c5a-811c-3993c9738289",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "d9223f9c-09cc-4265-a05f-dba684fd5cd2"
+}

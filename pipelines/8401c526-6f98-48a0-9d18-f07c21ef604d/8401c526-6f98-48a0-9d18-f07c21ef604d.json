@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "8401c526-6f98-48a0-9d18-f07c21ef604d",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "fields_extraction_feedback",
+    "description": "This pipeline contains all the services to send retrain feedback for key value extraction",
+    "cts": "2020-04-01T05:12:52.585927",
+    "is_deleted": false,
+    "uts": "2020-04-01T07:26:47.359989",
+    "default_version": "9bfbf808-fcad-41c2-9f08-eef2b0a8529a",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

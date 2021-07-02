@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "internal_annotate_ingest",
+    "description": "this pipeline internally ingests documents to annotate",
+    "cts": "2020-02-17T12:32:37.483238",
+    "is_deleted": false,
+    "uts": "2020-02-17T12:32:37.483244",
+    "default_version": "639e98d4-e5f6-4862-b813-c4e6966b2667",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "8bdb864e-311f-4c16-8070-85b459d22d46"
+}

@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Entity and Extraction Reviews",
+    "description": "Pipelines with entity and extraction reviews",
+    "cts": "2019-07-30T12:03:46.896615",
+    "is_deleted": false,
+    "uts": "2019-07-30T12:03:46.896620",
+    "default_version": "2cbf655c-1bd8-4629-a0c6-706abb2aa1fc",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "a36b47f9-7ae2-4af9-9bb8-a37ab10bc7b2"
+}

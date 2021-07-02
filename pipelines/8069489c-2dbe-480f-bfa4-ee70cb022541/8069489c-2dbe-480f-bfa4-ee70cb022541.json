@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "8069489c-2dbe-480f-bfa4-ee70cb022541",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "headings_extraction_feedback",
+    "description": "This pipeline contains all the services to send retrain feedback for headings extraction",
+    "cts": "2020-04-02T13:26:44.860968",
+    "is_deleted": false,
+    "uts": "2020-04-02T13:28:17.765546",
+    "default_version": "e76c6494-3d8c-49e4-9b17-6b5d9ffcd84a",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

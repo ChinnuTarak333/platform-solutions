@@ -1,0 +1,26 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Process Document Text",
+    "description": "",
+    "cts": "2021-06-15T18:58:11.867091",
+    "is_deleted": false,
+    "uts": "2021-06-15T18:58:11.867102",
+    "default_version": "91a7897e-e9fb-4647-9f2d-d3715c3a9da9",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "pulse_enabled": false,
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "task_id": "92a0dcb5-416a-42eb-9dcd-38aca8b178e1"
+}

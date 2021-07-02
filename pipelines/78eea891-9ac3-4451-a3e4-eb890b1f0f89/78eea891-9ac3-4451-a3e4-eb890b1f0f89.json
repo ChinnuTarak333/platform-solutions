@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "78eea891-9ac3-4451-a3e4-eb890b1f0f89",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Template-Processing",
+    "description": "",
+    "cts": "2019-07-24T14:53:58.266219",
+    "is_deleted": false,
+    "uts": "2020-04-29T17:05:07.214387",
+    "default_version": "2c8d3ef7-e7b5-471b-aeb2-04a23cc59a23",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "headings_extraction_pipeline",
+    "description": "This pipeline contains all services for extracting headings",
+    "cts": "2020-04-02T13:25:18.866195",
+    "is_deleted": false,
+    "uts": "2020-04-02T13:25:18.866203",
+    "default_version": "d4eed5e6-5823-44d6-b8a5-e92be45d4ec6",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "8e20ded0-3586-44d4-9740-19fb2a729ee1"
+}

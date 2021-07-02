@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "44ef3f95-caf2-4980-bd3d-ec376fb18225",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Paragraph_Feedback_Pipeline",
+    "description": "Feedback for paragraph",
+    "cts": "2020-04-03T10:22:50.860299",
+    "is_deleted": false,
+    "uts": "2020-04-03T10:24:46.816983",
+    "default_version": "70b0e46d-a667-4b42-a3ce-40bcdc238c9d",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}
