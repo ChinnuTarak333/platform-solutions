@@ -1,0 +1,22 @@
+{
+    "name": "",
+    "description": "",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "2021-07-02T05:04:57.099477",
+    "uts": "2021-07-02T05:04:57.099477",
+    "_XpmsObjectMixin__type": "ModelComparison",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "model_id": "63a131f3-5b37-45e2-a378-402aabd23ab1",
+    "model_type": "classification",
+    "scoring_metric": "accuracy",
+    "baseline_version": "",
+    "cutoff": {
+        "scores": {}
+    },
+    "model_config_id": "1976cbe3-5e8c-432c-b95a-79b36b7d616e",
+    "is_deleted": false,
+    "model_comparisons": {
+        "180095f7-ea5b-4ab6-b63d-186c990b4608": {}
+    }
+}
