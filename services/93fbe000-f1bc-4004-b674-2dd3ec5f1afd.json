@@ -1,0 +1,38 @@
+{
+    "name": "comparator_service",
+    "description": "Benchmark different extraction services",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.674089",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "93fbe000-f1bc-4004-b674-2dd3ec5f1afd",
+    "service_key": "comparator_service_key",
+    "display_name": "Comparator Task",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "comparator_service",
+    "response_trigger": "comparator_service_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Select Objective\": {\"options\": [\"field\", \"fields_key\", \"fields_value\", \"paragraph\", \"heading\", \"table\", \"entity\", \"lines\", \"model_benchmark\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"Select Objective\", \"description\": \"select objective\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": null, \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.objective\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Select Metric\": {\"options\": [\"accuracy\", \"precision\", \"recall\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"Select Metric\", \"description\": \"select metric\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"accuracy\", \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.metric\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_9",
+    "category": "Document Aggregation",
+    "service_name": "comparator_service",
+    "service_type": "INTERNAL"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "extract_non_line_tables",
+    "description": "Extract Non Line Tables for each page of document.",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.128084",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "3028bd10-7172-455f-a45e-6803c3bac05d",
+    "service_key": "extract_non_line_tables_key",
+    "display_name": "Extract Non Line Tables",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "extract_non_line_tables",
+    "response_trigger": "extract_non_line_tables_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"known Table Headers\": {\"name\": \"known Table Headers\", \"description\": \"known Table Headers\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": null, \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.known_table_headings\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Min No Row In Borderless Table\": {\"min_value\": 1, \"max_value\": 10, \"closure\": \"closed_closed\", \"name\": \"Min No Row In Borderless Table\", \"description\": \"min no. of column defined in table\", \"data_type\": \"integer\", \"op_type\": \"continuous\", \"value\": 2, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.min_no_of_column_borderless_table\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"NumericConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Min No Lines In Borderless Table\": {\"min_value\": 1, \"max_value\": 1000, \"closure\": \"closed_closed\", \"name\": \"Min No Lines In Borderless Table\", \"description\": \"min no. of lines defined in table\", \"data_type\": \"integer\", \"op_type\": \"continuous\", \"value\": 2, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.min_no_of_lines_borderless_table\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"NumericConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"Min No Empty Rows for Table End\": {\"min_value\": 1, \"max_value\": 100, \"closure\": \"closed_closed\", \"name\": \"Min No Empty Rows for Table End\", \"description\": \"min no. of row to end table\", \"data_type\": \"integer\", \"op_type\": \"continuous\", \"value\": 2, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.min_no_of_empty_rows_to_end_table\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"NumericConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"No of columns for row separation\": {\"min_value\": 1, \"max_value\": 10, \"closure\": \"closed_closed\", \"name\": \"No of columns for row separation\", \"description\": \"No of columns to consider for row separation\", \"data_type\": \"integer\", \"op_type\": \"continuous\", \"value\": 1, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.no_of_columns_for_row_separation\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"NumericConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"table_end_keywords\": {\"name\": \"table_end_keywords\", \"description\": \"Table end keywords to identify table end\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": null, \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.table_end_keywords\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_3",
+    "category": "Element Extraction",
+    "service_name": "extract_non_line_tables",
+    "service_type": "INTERNAL"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "extract_headings",
+    "description": "Extract Headings with feature extraction and post processing",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:31.976882",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "12c1f24d-2ee4-44f3-8c4f-f336c5f66d5d",
+    "service_key": "extract_headings_key",
+    "display_name": "Extract Headings",
+    "feedback_supported": true,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "extract_headings",
+    "response_trigger": "extract_headings_response",
+    "headers": {},
+    "service_configuration": "{\"headings_processing_pipeline\": {\"api\": \"dag/task/list\", \"trigger\": \"list_tasks\", \"options\": \"result.metadata.tasks\", \"request_data\": {\"category\": \"pipeline\", \"is_enabled\": true}, \"display_key\": \"name\", \"value_key\": \"task_id\", \"custom_request_data\": [], \"name\": \"headings_processing_pipeline\", \"description\": \"select the pipeline to process headings extraction\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": null, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.headings_processing_pipeline\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"PlatformApiListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"headings_feedback_pipeline\": {\"api\": \"dag/task/list\", \"trigger\": \"list_tasks\", \"options\": \"result.metadata.tasks\", \"request_data\": {\"category\": \"pipeline\", \"is_enabled\": true}, \"display_key\": \"name\", \"value_key\": \"task_id\", \"custom_request_data\": [], \"name\": \"headings_feedback_pipeline\", \"description\": \"select the pipeline to process feedback for headings\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": null, \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.configuration.headings_feedback_pipeline\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"PlatformApiListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_4",
+    "category": "Element Extraction",
+    "service_name": "extract_headings",
+    "service_type": "INTERNAL"
+}

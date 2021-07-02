@@ -1,0 +1,39 @@
+{
+    "name": "run_model_attr_feature_generation",
+    "description": "",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-30T08:47:34.227426",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "17c98033-c694-4c98-85cd-be0b5ec1edb3",
+    "service_key": "run_model_attr_feature_generation",
+    "display_name": "Create Dataset For Confidence Model Run",
+    "feedback_supported": true,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document",
+        "domain"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "run_model_attr_feature_generation_request",
+    "response_trigger": "run_model_attr_feature_generation_response",
+    "headers": {},
+    "service_configuration": "{}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "10"
+    },
+    "category_id": "category_4",
+    "category": "Platform Configuration",
+    "service_name": "run_model_attr_feature_generation",
+    "service_type": "INTERNAL"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "generate_assisted_data",
+    "description": "Generate Assisted Data for each page of document.",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-23T13:20:32.627143",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "53e85d22-05ab-4995-9cb7-4e1a6f08d711",
+    "service_key": "generate_assisted_data_key",
+    "display_name": "Generate Assisted Data",
+    "feedback_supported": false,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "generate_assisted_data",
+    "response_trigger": "generate_assisted_data_response",
+    "headers": {},
+    "service_configuration": "{\"dependencies\": {\"options\": [\"any\", \"all\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"dependencies\", \"description\": \"dependency on previous tasks to run\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"any\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.dependencies\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}, \"assisted_elements\": {\"options\": [\"headings\", \"fields\", \"paragraph\", \"tables\", \"table_detection\", \"omr\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"assisted_elements\", \"description\": \"assisted_elements\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": [], \"multi_select\": true, \"hidden\": false, \"config_path\": \"config.data.configuration.assisted_elements\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"10.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "100"
+    },
+    "category_id": "category_3",
+    "category": "Platform Configuration",
+    "service_name": "generate_assisted_data",
+    "service_type": "INTERNAL"
+}

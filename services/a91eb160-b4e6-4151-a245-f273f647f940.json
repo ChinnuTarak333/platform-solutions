@@ -1,0 +1,38 @@
+{
+    "name": "semantic_relation",
+    "description": "",
+    "created_by": "system",
+    "modified_by": "system",
+    "cts": "",
+    "uts": "2021-06-30T08:47:34.287774",
+    "_XpmsObjectMixin__type": "Service",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "service_id": "a91eb160-b4e6-4151-a245-f273f647f940",
+    "service_key": "semantic_relation",
+    "display_name": "Construct Semantic Relations",
+    "feedback_supported": true,
+    "is_deleted": false,
+    "is_enabled": true,
+    "is_service": true,
+    "object_type": [
+        "document"
+    ],
+    "request_schema": "{}",
+    "response_schema": "{}",
+    "request_trigger": "semantic_relation_request",
+    "response_trigger": "semantic_relation_response",
+    "headers": {},
+    "service_configuration": "{\"graph_uri\": {\"display_key\": null, \"value_key\": null, \"name\": \"Graph URI\", \"description\": \"Enter the Graph URI\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": \"None\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.graph_uri\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"9.0\"}, \"ontology_name\": {\"display_key\": null, \"value_key\": null, \"name\": \"Ontology Name\", \"description\": \"Enter the Ontology name\", \"data_type\": \"string\", \"op_type\": \"continuous\", \"value\": \"None\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.ontology_name\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"StringConfiguration\", \"_XpmsObjectMixin__api_version\": \"9.0\"}, \"include_metadata\": {\"options\": [\"Yes\", \"No\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"Include Metadata ?\", \"description\": \"Select whether to include metadata in ontology generation\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"Yes\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.include_metadata\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"9.0\"}, \"construct_semantic_relations\": {\"options\": [\"Yes\", \"No\"], \"is_option_object\": false, \"display_key\": null, \"value_key\": null, \"name\": \"Semantic Linking ?\", \"description\": \"Select whether to Construct Semantic Relations in ontology generation\", \"data_type\": \"string\", \"op_type\": \"categorical\", \"value\": \"Yes\", \"multi_select\": false, \"hidden\": false, \"config_path\": \"config.data.construct_semantic_relations\", \"ui_component\": \"\", \"_XpmsObjectMixin__type\": \"CategoricalListConfiguration\", \"_XpmsObjectMixin__api_version\": \"9.0\"}}",
+    "service_configuration_schema": "{}",
+    "feedback_endpoint": "",
+    "method": "GET",
+    "service_endpoint": "",
+    "timeout": {
+        "unit": "seconds",
+        "value": "10"
+    },
+    "category_id": "category_4",
+    "category": "Unknown",
+    "service_name": "semantic_relation",
+    "service_type": "INTERNAL"
+}
