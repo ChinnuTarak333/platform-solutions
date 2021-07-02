@@ -1,0 +1,28 @@
+{
+    "_XpmsObjectMixin__type": "DocumentClass",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "doc_class_name": "default_doc_class",
+    "doc_class_id": "23b1e3d1-8e7e-416a-873a-f69b1a61c27f",
+    "is_deleted": false,
+    "is_published": true,
+    "description": "",
+    "domain_object_mapping": "unknown",
+    "status": "ready",
+    "models": {
+        "key_value_classifier": "default key value classifier",
+        "header_classifier": "default header classifier",
+        "paragraph_classifier": "default paragraph classifier",
+        "omr_classifier": "default omr classifier"
+    },
+    "template_id": "",
+    "template_type": "unknown",
+    "training_request_id": "",
+    "cts": "2021-07-02 03:54:49.819060",
+    "process": [],
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "uts": "2021-07-02 03:54:49.819586"
+}
