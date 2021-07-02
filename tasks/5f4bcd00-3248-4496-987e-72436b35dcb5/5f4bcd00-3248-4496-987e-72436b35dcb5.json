@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "entity_confidence_feature_genaration",
+    "description": "",
+    "cts": "2020-04-15T14:02:54.078886",
+    "is_deleted": false,
+    "uts": "2020-04-15T14:02:54.078894",
+    "default_version": "b487c10d-b8e8-46c1-82f1-2e4f8fc148ec",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "5f4bcd00-3248-4496-987e-72436b35dcb5"
+}

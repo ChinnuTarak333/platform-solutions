@@ -1,0 +1,24 @@
+{
+    "pipeline_id": "67cd48f4-d4de-43f8-ba18-d72580b351da",
+    "pulse_enabled": false,
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "hand_writing_extraction_pipeline",
+    "description": "",
+    "cts": "2021-04-03T09:01:50.881013",
+    "is_deleted": false,
+    "uts": "2021-04-03T09:03:12.186270",
+    "default_version": "0a0786f2-f9b6-47d4-8835-23ecbdcceb58",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "generate_api": false
+}

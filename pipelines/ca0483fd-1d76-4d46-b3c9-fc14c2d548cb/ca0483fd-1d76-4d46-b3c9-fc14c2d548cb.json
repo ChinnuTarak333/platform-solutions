@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "ca0483fd-1d76-4d46-b3c9-fc14c2d548cb",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "convert_group",
+    "description": "This pipeline  contains all the services needed for converting the document",
+    "cts": "2019-07-19T12:15:52.416438",
+    "is_deleted": false,
+    "uts": "2019-07-19T12:45:53.007834",
+    "default_version": "0b6a12fb-8696-41be-9a6a-a08ec3ec4ca8",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

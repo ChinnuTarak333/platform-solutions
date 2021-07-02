@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "convert_group",
+    "description": "This pipeline  contains all the services needed for converting the document",
+    "cts": "2019-07-19T12:30:19.679556",
+    "is_deleted": false,
+    "uts": "2019-07-19T12:30:19.679562",
+    "default_version": "0b6a12fb-8696-41be-9a6a-a08ec3ec4ca8",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "ca0483fd-1d76-4d46-b3c9-fc14c2d548cb"
+}

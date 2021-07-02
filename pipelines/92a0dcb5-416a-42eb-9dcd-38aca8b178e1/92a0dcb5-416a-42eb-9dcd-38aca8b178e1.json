@@ -1,0 +1,24 @@
+{
+    "pipeline_id": "92a0dcb5-416a-42eb-9dcd-38aca8b178e1",
+    "pulse_enabled": false,
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Process Document Text",
+    "description": "",
+    "cts": "2021-06-15T18:57:00.766170",
+    "is_deleted": false,
+    "uts": "2021-06-15T19:00:37.820927",
+    "default_version": "91a7897e-e9fb-4647-9f2d-d3715c3a9da9",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "generate_api": false
+}

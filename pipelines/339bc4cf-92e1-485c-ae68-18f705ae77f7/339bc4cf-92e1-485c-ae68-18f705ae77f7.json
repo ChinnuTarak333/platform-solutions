@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "339bc4cf-92e1-485c-ae68-18f705ae77f7",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "attribute_feature_generation",
+    "description": "extract entities and generate feature vectors for model train",
+    "cts": "2020-04-15T13:58:50.246278",
+    "is_deleted": false,
+    "uts": "2020-04-18T11:20:32.939561",
+    "default_version": "2838826c-d2c5-4ab7-b638-05b7fae01721",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

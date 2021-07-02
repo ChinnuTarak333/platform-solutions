@@ -1,0 +1,24 @@
+{
+    "pipeline_id": "61cc0bfa-8fa1-4106-9771-d221d4213637",
+    "pulse_enabled": false,
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Classify Document",
+    "description": "",
+    "cts": "2021-05-16T03:11:54.115367",
+    "is_deleted": false,
+    "uts": "2021-05-16T03:19:22.077274",
+    "default_version": "e2516a63-bd38-4d90-b2aa-d0212b08d7f3",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "generate_api": false
+}

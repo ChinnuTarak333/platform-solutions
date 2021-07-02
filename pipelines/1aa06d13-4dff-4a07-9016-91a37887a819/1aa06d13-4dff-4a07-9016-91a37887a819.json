@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "1aa06d13-4dff-4a07-9016-91a37887a819",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Assisted Linking",
+    "description": "",
+    "cts": "2020-05-04T09:30:50.839885",
+    "is_deleted": false,
+    "uts": "2020-05-04T10:48:39.092243",
+    "default_version": "7cb3358b-7b58-48cc-a70a-68aa32abb954",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

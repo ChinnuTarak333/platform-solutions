@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "cf48f300-4f4f-4a15-89c3-5c64bd7d491e",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Default Pipeline",
+    "description": "This pipeline contains all the services that are necessary for document processing through default",
+    "cts": "2019-07-19T12:44:07.044619",
+    "is_deleted": false,
+    "uts": "2020-06-23T10:55:57.252323",
+    "default_version": "cf52b130-08c3-426d-8dfc-f72f0158c983",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

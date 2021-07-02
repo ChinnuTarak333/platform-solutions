@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "omr_extraction_pipeline",
+    "description": "",
+    "cts": "2020-10-11T13:31:25.733120",
+    "is_deleted": false,
+    "uts": "2020-10-11T13:31:25.733128",
+    "default_version": "aaea2fbb-90fa-454e-b588-9de0144c5267",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "task_id": "6fd540e1-aaba-43c8-8c2a-9a92c6c34019"
+}

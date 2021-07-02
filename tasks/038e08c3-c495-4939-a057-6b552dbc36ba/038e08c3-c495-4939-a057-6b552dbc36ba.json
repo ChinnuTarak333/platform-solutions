@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Doc_classifier_training_pipeline",
+    "description": "Pipeline to train boundary and document classifier models",
+    "cts": "2019-07-30T08:04:04.726730",
+    "is_deleted": false,
+    "uts": "2019-07-30T08:04:04.726735",
+    "default_version": "d03f9f68-db7c-45a4-baff-a22ba7b3e147",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "038e08c3-c495-4939-a057-6b552dbc36ba"
+}

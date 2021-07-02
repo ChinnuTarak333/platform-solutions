@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "3df9ebb0-6b43-411a-b9ec-3fdb76c7918a",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "tables_extraction_pipeline",
+    "description": "This pipeline contains all services for extracting tables",
+    "cts": "2020-04-24T06:43:18.411257",
+    "is_deleted": false,
+    "uts": "2020-11-18T10:20:22.463583",
+    "default_version": "efadb347-1402-46f3-a0e2-2feda429da41",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

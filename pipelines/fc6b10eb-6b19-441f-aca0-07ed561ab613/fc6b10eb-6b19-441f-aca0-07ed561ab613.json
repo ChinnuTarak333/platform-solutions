@@ -1,0 +1,24 @@
+{
+    "pipeline_id": "fc6b10eb-6b19-441f-aca0-07ed561ab613",
+    "pulse_enabled": false,
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Generate Recommendations",
+    "description": "",
+    "cts": "2021-05-16T03:00:26.613639",
+    "is_deleted": false,
+    "uts": "2021-05-16T03:10:45.530869",
+    "default_version": "15497e37-d814-46a1-b686-28dc903b09c1",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "generate_api": false
+}

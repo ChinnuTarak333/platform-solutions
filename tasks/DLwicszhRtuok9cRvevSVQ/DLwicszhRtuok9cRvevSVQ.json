@@ -1,0 +1,28 @@
+{
+    "task_class": "xpms_lib_dag.tasks.service_task.ServiceTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "solution_id": "newgit2",
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Generate Recommendations service",
+    "description": "",
+    "cts": "",
+    "is_deleted": false,
+    "uts": "",
+    "default_version": "v1",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "pulse_enabled": false,
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "task_id": "DLwicszhRtuok9cRvevSVQ",
+    "task_type": "external"
+}

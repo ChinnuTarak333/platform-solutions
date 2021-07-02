@@ -1,0 +1,25 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Domain Object Discovery",
+    "description": "",
+    "cts": "2021-02-17T16:03:57.992360",
+    "is_deleted": false,
+    "uts": "2021-02-17T16:03:57.992372",
+    "default_version": "52205142-2b7b-4740-957c-eebf7355565c",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.5",
+    "task_id": "1fcdb7f9-e916-4df3-a576-ae16901b4caf"
+}

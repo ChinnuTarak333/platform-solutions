@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "192b9f70-8f21-4077-bb7e-b79ada631f92",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Get_Sections",
+    "description": "",
+    "cts": "2019-07-25T06:10:09.525765",
+    "is_deleted": false,
+    "uts": "2019-08-08T08:08:41.212828",
+    "default_version": "78b298f2-38c3-461d-9cfc-5ebcc308a012",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

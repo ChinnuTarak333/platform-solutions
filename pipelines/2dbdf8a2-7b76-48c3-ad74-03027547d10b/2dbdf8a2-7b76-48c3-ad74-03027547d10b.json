@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "2dbdf8a2-7b76-48c3-ad74-03027547d10b",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Extract_text_group",
+    "description": "This pipeline contains all the services necessary for extracting text",
+    "cts": "2019-07-19T12:32:20.779755",
+    "is_deleted": false,
+    "uts": "2020-04-27T12:20:15.175229",
+    "default_version": "6bf32518-0608-45b3-a80d-5591264ab233",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

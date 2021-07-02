@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "feature of text classifier",
+    "description": "generate feature data for text classifier",
+    "cts": "2020-01-30T13:29:23.946926",
+    "is_deleted": false,
+    "uts": "2020-01-30T13:29:23.946936",
+    "default_version": "f50b173e-42ae-4602-a039-a8dd5a8798ab",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "43a19f76-d407-41ca-93e4-8833d2ea7cf7"
+}

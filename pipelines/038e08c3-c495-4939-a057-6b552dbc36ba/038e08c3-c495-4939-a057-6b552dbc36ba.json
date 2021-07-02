@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "038e08c3-c495-4939-a057-6b552dbc36ba",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Doc_classifier_training_pipeline",
+    "description": "Pipeline to train boundary and document classifier models",
+    "cts": "2019-07-30T07:57:02.154456",
+    "is_deleted": false,
+    "uts": "2020-01-30T13:31:18.215259",
+    "default_version": "d03f9f68-db7c-45a4-baff-a22ba7b3e147",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

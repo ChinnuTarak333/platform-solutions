@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Paragraph_Extraction_Pipeline",
+    "description": "This pipeline extract paragraph",
+    "cts": "2020-04-03T10:22:02.172436",
+    "is_deleted": false,
+    "uts": "2020-04-03T10:22:02.172448",
+    "default_version": "bbf4aabd-9cbf-4590-8034-06f60f65b49e",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "7adbca44-6ad1-4500-befd-dd92da4b3722"
+}

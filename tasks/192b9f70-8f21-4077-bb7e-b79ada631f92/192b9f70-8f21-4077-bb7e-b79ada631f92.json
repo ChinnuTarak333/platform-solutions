@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "dataset_traning_pipeline",
+    "description": "",
+    "cts": "2019-07-25T08:58:21.038975",
+    "is_deleted": false,
+    "uts": "2019-07-25T08:58:21.038984",
+    "default_version": "78b298f2-38c3-461d-9cfc-5ebcc308a012",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "192b9f70-8f21-4077-bb7e-b79ada631f92"
+}

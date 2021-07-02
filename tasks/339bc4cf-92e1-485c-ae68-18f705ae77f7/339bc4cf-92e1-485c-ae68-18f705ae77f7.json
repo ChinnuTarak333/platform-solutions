@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "attribute_feature_generation",
+    "description": "extract entities and generate feature vectors for model train",
+    "cts": "2020-04-15T14:02:00.965049",
+    "is_deleted": false,
+    "uts": "2020-04-15T14:02:00.965058",
+    "default_version": "2838826c-d2c5-4ab7-b638-05b7fae01721",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "339bc4cf-92e1-485c-ae68-18f705ae77f7"
+}

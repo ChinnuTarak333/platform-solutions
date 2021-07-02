@@ -1,0 +1,18 @@
+{
+    "pipeline_id": "7adbca44-6ad1-4500-befd-dd92da4b3722",
+    "input_schema": {},
+    "output_schema": {},
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Paragraph_Extraction_Pipeline",
+    "description": "This pipeline extract paragraph",
+    "cts": "2020-04-03T10:19:54.247771",
+    "is_deleted": false,
+    "uts": "2020-04-03T10:22:20.171654",
+    "default_version": "bbf4aabd-9cbf-4590-8034-06f60f65b49e",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "Pipeline",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "generate_api": false
+}

@@ -1,0 +1,27 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Extract Document Entities",
+    "description": "extract document entities from document object",
+    "cts": "2021-06-17T09:12:40.434394",
+    "is_deleted": false,
+    "uts": "2021-06-17T09:12:40.434407",
+    "default_version": "3e756d3f-1b61-4d94-a3e8-85c4d8f0e52e",
+    "created_by": "system",
+    "modified_by": "system",
+    "asset_source": {
+        "type": "",
+        "name": "",
+        "version": ""
+    },
+    "pulse_enabled": false,
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "10.0",
+    "task_id": "f2a9b792-d4de-487a-ad2f-3a3d344a2a5e",
+    "generate_api": false
+}

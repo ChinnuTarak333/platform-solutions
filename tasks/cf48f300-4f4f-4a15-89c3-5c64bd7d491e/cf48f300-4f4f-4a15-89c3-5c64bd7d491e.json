@@ -1,0 +1,20 @@
+{
+    "task_class": "xpms_lib_dag.tasks.dag_task.DagTask",
+    "exec_type": "sync",
+    "compatible_groups": [
+        "base_dependency_group"
+    ],
+    "is_enabled": true,
+    "category": "pipeline",
+    "name": "Default Pipeline",
+    "description": "This pipeline contains all the services that are necessary for document processing through default",
+    "cts": "2019-07-19T13:00:35.460310",
+    "is_deleted": false,
+    "uts": "2019-07-19T13:00:35.460317",
+    "default_version": "cf52b130-08c3-426d-8dfc-f72f0158c983",
+    "created_by": "system",
+    "modified_by": "system",
+    "_XpmsObjectMixin__type": "TaskVersionBundle",
+    "_XpmsObjectMixin__api_version": "9.0",
+    "task_id": "cf48f300-4f4f-4a15-89c3-5c64bd7d491e"
+}
