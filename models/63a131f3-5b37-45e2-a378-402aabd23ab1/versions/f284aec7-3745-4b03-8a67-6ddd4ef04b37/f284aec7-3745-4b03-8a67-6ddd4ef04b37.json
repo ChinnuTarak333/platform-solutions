@@ -1,0 +1,33 @@
+{
+    "pipeline": {
+        "pipeline_id": "c3826013-2ad7-4e69-a0c9-c787c8278d5b",
+        "source": {
+            "model_type": "classification",
+            "pipeline_template_name": "default_confidence_model"
+        },
+        "source_type": "template",
+        "pipeline_name": "new_mod1_base_version",
+        "version_id": "f284aec7-3745-4b03-8a67-6ddd4ef04b37"
+    },
+    "evaluation": null,
+    "training_dataset": null,
+    "model_type": "classification",
+    "data_format": "csv",
+    "status": "untrained",
+    "version_id": "f284aec7-3745-4b03-8a67-6ddd4ef04b37",
+    "data_schema": {},
+    "is_deleted": false,
+    "is_enabled": false,
+    "is_default": false,
+    "is_published": false,
+    "parent_version": "f284aec7-3745-4b03-8a67-6ddd4ef04b37",
+    "name": "base_version",
+    "model_id": "63a131f3-5b37-45e2-a378-402aabd23ab1",
+    "created_by": "system",
+    "modified_by": "system",
+    "description": "",
+    "cts": "2021-07-02T05:04:55.860341",
+    "uts": "2021-07-02T05:04:55.860341",
+    "_XpmsObjectMixin__type": "MLModelVersion",
+    "_XpmsObjectMixin__api_version": "10.0"
+}
